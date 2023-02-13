@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.container_User{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.box_list{
+    background-color: rgb(0, 174, 255);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box_list h3{
+    text-align: center;
+}

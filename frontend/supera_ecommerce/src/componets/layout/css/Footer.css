@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+footer{
+    background-color: rgb(116, 148, 255);
+    height: 20%;
+    border-radius: 20p 20px 0 0;
+    position: relative;
+    top: 8px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+}

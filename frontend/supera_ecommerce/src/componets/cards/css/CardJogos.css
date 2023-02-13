@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.container_jogos{
+    background-color: rgb(116, 148, 255);
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container_jogos div{
+    position: relative;
+    top: 50%;
+    left: 15%;
+}
+.container_jogos:hover{
+    box-shadow: 0 0 4px 2px black;
+}
+
+.link{
+    display: inline;
+}
+
+@media screen and (min-width: 992px){
+    .container_jogos{
+        display: inline-block;
+        width: 300px;
+        margin: 10px 10px 10px 80px;
+    }
+    .container_jogos div{
+        position: inherit;
+    }
+    .container_jogos div img{
+        margin: auto;
+    }
+    .container_jogos div h3{
+        text-align: center;
+    }
+}
